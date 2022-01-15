@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "DoorMasterClone",
+    "slug": "DoorMasterClone",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "DoorMasterClone"
+}
