@@ -3,9 +3,24 @@
     "name": "DoorMasterClone",
     "slug": "DoorMasterClone",
     "version": "1.0.0",
+    "plugins": [
+      [
+        "@config-plugins/react-native-ble-plx",
+        {
+          "isBackgroundEnabled": true,
+          "modes": ["peripheral", "central"],
+          "bluetoothAlwaysPermission": "Allow $(PRODUCT_NAME) to connect to bluetooth devices",
+          "bluetoothPeripheralPermission": "Allow $(PRODUCT_NAME) to connect to bluetooth devices"
+        }
+      ]
+    ],
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "splash": {
+      "image": "./assets/splashlogo.png", 
+      "backgroundColor": "#e3e2e7" 
+    }
   },
   "name": "DoorMasterClone"
 }
